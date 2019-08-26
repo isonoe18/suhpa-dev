@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "isonoe18.github.io/suhpa-dev/precache-manifest.ca03e9a4115317a801e742705ad35754.js"
+  "isonoe18.github.io/suhpa-dev/precache-manifest.43b6f68876dbade1a8e01b768f896def.js"
 );
 
 self.addEventListener('message', (event) => {
