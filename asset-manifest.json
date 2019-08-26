@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/suhpa-dev/static/css/main.afd56077.chunk.css",
-    "main.js": "/suhpa-dev/static/js/main.194a8ca0.chunk.js",
-    "main.js.map": "/suhpa-dev/static/js/main.194a8ca0.chunk.js.map",
+    "main.css": "/suhpa-dev/static/css/main.547852aa.chunk.css",
+    "main.js": "/suhpa-dev/static/js/main.14d978c2.chunk.js",
+    "main.js.map": "/suhpa-dev/static/js/main.14d978c2.chunk.js.map",
     "runtime~main.js": "/suhpa-dev/static/js/runtime~main.6a66c307.js",
     "runtime~main.js.map": "/suhpa-dev/static/js/runtime~main.6a66c307.js.map",
     "static/js/2.cee23e64.chunk.js": "/suhpa-dev/static/js/2.cee23e64.chunk.js",
     "static/js/2.cee23e64.chunk.js.map": "/suhpa-dev/static/js/2.cee23e64.chunk.js.map",
     "index.html": "/suhpa-dev/index.html",
-    "precache-manifest.18693cd46214b0b68cdc68f5daabb52f.js": "/suhpa-dev/precache-manifest.18693cd46214b0b68cdc68f5daabb52f.js",
+    "precache-manifest.eebfccfd30d8b8de7aca6df24ae5da2a.js": "/suhpa-dev/precache-manifest.eebfccfd30d8b8de7aca6df24ae5da2a.js",
     "service-worker.js": "/suhpa-dev/service-worker.js",
-    "static/css/main.afd56077.chunk.css.map": "/suhpa-dev/static/css/main.afd56077.chunk.css.map"
+    "static/css/main.547852aa.chunk.css.map": "/suhpa-dev/static/css/main.547852aa.chunk.css.map"
   }
 }
