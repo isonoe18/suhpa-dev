@@ -1,6 +1,6 @@
 .SUSU{
     position: absolute;
-    top: 92%;
+    top: 94%;
     left: 50%;
     transform: translate(-50%, 0);
     margin: 0;
@@ -10,26 +10,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0;
 }
 
 .SUSU > div {
     margin: auto 0;
+    width: 60%;
     height: 55%;
-    width: 25%;
     float: left;
     display: flex;
     align-items: center;
 }
 
 .SUSU > div > p {
-    margin-right: 6px;
-    width: 57%;
+    margin-right: 12px;
+    margin-left: auto;
 }
 
 .SUSU > div > a{
     height: auto;
     margin: auto 0;
+    margin-right: auto;
     width: 40%;
+    max-width: 96px;
     float: left;
 }
 
@@ -44,5 +47,8 @@
 @media(max-width:640px){
     .SUSU > div {
         width: 80%;
+    }
+    .SUSU > div > p  {
+        margin-right: 6px;
     }
 }

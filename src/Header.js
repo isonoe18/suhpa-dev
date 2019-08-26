@@ -11,8 +11,11 @@ class Header extends Component{
         this.refs.background.play();
     }
     sentMessage() {
-        console.log("Hello")
-        document.querySelector('.alert').style.display = 'flex';
+        document.querySelector('.success').style.display = 'flex';
+        document.querySelector('.mailing').style.display = 'none';
+    }
+    failedMessage() {
+        document.querySelector('.fail').style.display = 'flex';
         document.querySelector('.mailing').style.display = 'none';
     }
     render(){
@@ -26,11 +29,17 @@ class Header extends Component{
                     <h1 className="title-image">SUHPA</h1>
                     <p>Its a race! Which gets built first our website or our aircraft.</p>
                     <p>Want regular updates? Join our mailing list.</p>
-                    <Mailing sentMessage={this.sentMessage}/>
-                    <div className="alert">
-                        <img className="tick" src="./img/tick.svg" alt=""></img>
+                    <Mailing sentMessage={this.sentMessage} failedMessage={this.failedMessage}/>
+                    <div className="alert success">
+                        <img className="alert-img" src="./img/tick.svg" alt=""></img>
                         <div>
                             <p>Thank you for signing up!</p>
+                        </div>
+                    </div>
+                    <div className="alert fail">
+                        <img className="alert-img" src="./img/cross.svg" alt=""></img>
+                        <div>
+                            <p>Unfortunatley, there has been a problem!</p>
                         </div>
                     </div>
                     <div className="SUSU container">

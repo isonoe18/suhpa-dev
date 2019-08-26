@@ -113,7 +113,7 @@ body {
     margin: auto;
 }
 
-.tick{
+.alert-img{
     height: 100%;
     margin: auto 0;
     width: auto;
@@ -139,7 +139,7 @@ body {
     .alert {
         height: 5rem;
     }
-    .tick {
+    .alert-img {
         height: 45%;
     }
     .alert > div {

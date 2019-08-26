@@ -22,18 +22,19 @@ class Mailing extends Component{
         if (!firebase.apps.length) {
             firebase.initializeApp(this.state.firebaseConfig);
             this.state.messageRef = firebase.database().ref('messages')
-            console.log(this.state)
         }
     }
     submitHandler = (e) => {
         e.preventDefault()
 
         var email = this.getInputVal('email')
+        try {
+            this.saveMessage(email)
+            this.props.sentMessage()
+        } catch {
+            this.props.failedMessage()
+        }
 
-        console.log(email)
-
-        this.saveMessage(email)
-        this.props.sentMessage()
         
     }
     getInputVal(id){
