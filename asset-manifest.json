@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "isonoe18.github.io/suhpa-dev/static/css/main.7c6ae5ad.chunk.css",
-    "main.js": "isonoe18.github.io/suhpa-dev/static/js/main.43635ff3.chunk.js",
-    "main.js.map": "isonoe18.github.io/suhpa-dev/static/js/main.43635ff3.chunk.js.map",
-    "runtime~main.js": "isonoe18.github.io/suhpa-dev/static/js/runtime~main.7750fecc.js",
-    "runtime~main.js.map": "isonoe18.github.io/suhpa-dev/static/js/runtime~main.7750fecc.js.map",
-    "static/js/2.1e870d95.chunk.js": "isonoe18.github.io/suhpa-dev/static/js/2.1e870d95.chunk.js",
-    "static/js/2.1e870d95.chunk.js.map": "isonoe18.github.io/suhpa-dev/static/js/2.1e870d95.chunk.js.map",
-    "index.html": "isonoe18.github.io/suhpa-dev/index.html",
-    "precache-manifest.43b6f68876dbade1a8e01b768f896def.js": "isonoe18.github.io/suhpa-dev/precache-manifest.43b6f68876dbade1a8e01b768f896def.js",
-    "service-worker.js": "isonoe18.github.io/suhpa-dev/service-worker.js",
-    "static/css/main.7c6ae5ad.chunk.css.map": "isonoe18.github.io/suhpa-dev/static/css/main.7c6ae5ad.chunk.css.map"
+    "main.css": "/suhpa-dev/static/css/main.7c6ae5ad.chunk.css",
+    "main.js": "/suhpa-dev/static/js/main.7e5dd435.chunk.js",
+    "main.js.map": "/suhpa-dev/static/js/main.7e5dd435.chunk.js.map",
+    "runtime~main.js": "/suhpa-dev/static/js/runtime~main.6a66c307.js",
+    "runtime~main.js.map": "/suhpa-dev/static/js/runtime~main.6a66c307.js.map",
+    "static/js/2.cee23e64.chunk.js": "/suhpa-dev/static/js/2.cee23e64.chunk.js",
+    "static/js/2.cee23e64.chunk.js.map": "/suhpa-dev/static/js/2.cee23e64.chunk.js.map",
+    "index.html": "/suhpa-dev/index.html",
+    "precache-manifest.e0bb0cbd2501a75fc8cfbd8377f3d154.js": "/suhpa-dev/precache-manifest.e0bb0cbd2501a75fc8cfbd8377f3d154.js",
+    "service-worker.js": "/suhpa-dev/service-worker.js",
+    "static/css/main.7c6ae5ad.chunk.css.map": "/suhpa-dev/static/css/main.7c6ae5ad.chunk.css.map"
   }
 }
