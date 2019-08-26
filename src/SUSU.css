@@ -1,0 +1,48 @@
+.SUSU{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 0;
+    width: 100%;
+    height: 2.5rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SUSU > div {
+    margin: auto 0;
+    height: 55%;
+    width: 25%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.SUSU > div > p {
+    margin-right: 6px;
+    width: 57%;
+}
+
+.SUSU > div > a{
+    height: auto;
+    margin: auto 0;
+    width: 40%;
+    float: left;
+}
+
+.SUSU > div > a:visited{
+    text-decoration: none;
+}
+
+.SUSU > div > a:hover{
+    cursor: pointer;
+}
+
+@media(max-width:640px){
+    .SUSU > div {
+        width: 80%;
+    }
+}
