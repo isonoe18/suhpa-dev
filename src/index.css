@@ -47,9 +47,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background: #225470;
+    background: #3d5a80;
     z-index: 1;
-    opacity: 0.65;
+    opacity: 0.50;
 }
 
 .header-content{
@@ -70,7 +70,7 @@ body {
 }
 
 .btn {
-    background: #34b3a0;
+    background: #ee6c4d;
     color: #fff;
     font-size: 1.2rem;
     padding: 1rem 2rem;
@@ -78,7 +78,7 @@ body {
 }
 
 .btn:hover {
-    background: #31AA98;
+    background: #eb5a36;
     cursor: pointer;
 }
 

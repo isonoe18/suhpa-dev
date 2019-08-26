@@ -1,0 +1,51 @@
+.committee {
+    text-align: center;
+}
+
+.member {
+    width: 20%;
+    float: left;
+    padding: 1rem;
+    text-align: center;
+}
+
+.member > img {
+    width: 80%;
+    border: solid 0 black;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.member-content{
+    text-align: left;
+    color: 293241;
+}
+
+.member-content > h3{
+    margin: 0;
+    color: #ee6c4d;
+}
+
+.member-content > h4 {
+    margin: 0;
+}
+
+.member-content > p{
+    margin: 0;
+    
+}
+
+@media(max-width:640px){
+    .member{
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .member > img {
+        width: 40%;
+        float: left;
+        margin: 1rem;
+    }
+    .member-content > p {
+        margin-right: 1rem;
+    }
+}

@@ -4,14 +4,14 @@ import firebase from 'firebase';
 
 class Mailing extends Component{
     state = {
-        firebaseConfig : {
-            apiKey: "AIzaSyAifnC_MtVLo6K6XUC1jfwUVzFeHSHuUCU",
-            authDomain: "mailing-list-82fd9.firebaseapp.com",
-            databaseURL: "https://mailing-list-82fd9.firebaseio.com",
-            projectId: "mailing-list-82fd9",
-            storageBucket: "",
-            messagingSenderId: "1067308784829",
-            appId: "1:1067308784829:web:10850430f796aac8"
+        firebaseConfig: {
+            apiKey: "AIzaSyAJNdzd8QpBRp-buErxRI5jlyIjovfOcyc",
+            authDomain: "shupa-dev.firebaseapp.com",
+            databaseURL: "https://shupa-dev.firebaseio.com",
+            projectId: "shupa-dev",
+            storageBucket: "shupa-dev.appspot.com",
+            messagingSenderId: "529493216733",
+            appId: "1:529493216733:web:d698b32a8229b2c7"
         },
         messageRef: null
         // Initialize Firebase
