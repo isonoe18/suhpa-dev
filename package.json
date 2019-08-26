@@ -2,7 +2,7 @@
   "name": "development",
   "version": "0.3.3",
   "private": true,
-  "homepage": "isonoe18.github.io/suhpa-dev/",
+  "homepage": "https://isonoe18.github.io/suhpa-dev/",
   "dependencies": {
     "firebase": "^6.4.2",
     "firebase-tools": "^7.2.4",
