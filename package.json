@@ -1,6 +1,6 @@
 {
   "name": "development",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "private": true,
   "homepage": "https://isonoe18.github.io/suhpa-dev/",
   "dependencies": {
@@ -9,7 +9,9 @@
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-responsive-carousel": "^3.1.50",
+    "react-scripts": "3.1.1",
+    "react-slick": "^0.25.2"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,6 +1,13 @@
+.slick-track {
+    overflow: hidden;
+}
+
 .committee {
     text-align: center;
+    padding: 1rem  0  2rem 0;
+    overflow: hidden;
 }
+
 
 .member {
     width: 20%;
@@ -23,6 +30,7 @@
 
 .member-content > h3{
     margin: 0;
+    margin-top: 1rem;
     color: #ee6c4d;
 }
 
@@ -34,7 +42,7 @@
     margin: 0;
     
 }
-
+/*
 @media(max-width:640px){
     .member{
         width: 100%;
@@ -48,4 +56,4 @@
     .member-content > p {
         margin-right: 1rem;
     }
-}
+}*/
