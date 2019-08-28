@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/suhpa-dev/static/css/main.547852aa.chunk.css",
-    "main.js": "/suhpa-dev/static/js/main.14d978c2.chunk.js",
-    "main.js.map": "/suhpa-dev/static/js/main.14d978c2.chunk.js.map",
+    "main.css": "/suhpa-dev/static/css/main.0ae20ba8.chunk.css",
+    "main.js": "/suhpa-dev/static/js/main.b8660cc9.chunk.js",
+    "main.js.map": "/suhpa-dev/static/js/main.b8660cc9.chunk.js.map",
     "runtime~main.js": "/suhpa-dev/static/js/runtime~main.6a66c307.js",
     "runtime~main.js.map": "/suhpa-dev/static/js/runtime~main.6a66c307.js.map",
-    "static/js/2.cee23e64.chunk.js": "/suhpa-dev/static/js/2.cee23e64.chunk.js",
-    "static/js/2.cee23e64.chunk.js.map": "/suhpa-dev/static/js/2.cee23e64.chunk.js.map",
+    "static/js/2.13f4209e.chunk.js": "/suhpa-dev/static/js/2.13f4209e.chunk.js",
+    "static/js/2.13f4209e.chunk.js.map": "/suhpa-dev/static/js/2.13f4209e.chunk.js.map",
     "index.html": "/suhpa-dev/index.html",
-    "precache-manifest.eebfccfd30d8b8de7aca6df24ae5da2a.js": "/suhpa-dev/precache-manifest.eebfccfd30d8b8de7aca6df24ae5da2a.js",
+    "precache-manifest.937a93db5605b93c8f351dca474e8b21.js": "/suhpa-dev/precache-manifest.937a93db5605b93c8f351dca474e8b21.js",
     "service-worker.js": "/suhpa-dev/service-worker.js",
-    "static/css/main.547852aa.chunk.css.map": "/suhpa-dev/static/css/main.547852aa.chunk.css.map"
+    "static/css/main.0ae20ba8.chunk.css.map": "/suhpa-dev/static/css/main.0ae20ba8.chunk.css.map"
   }
 }
