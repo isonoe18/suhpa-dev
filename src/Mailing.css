@@ -46,6 +46,11 @@
     text-align: center;
 }
 
+.mailing > .btn > strong{
+    font-size: 1rem;
+    margin: 0;
+}
+
 @media(max-width:640px){
     .mailing{
         height: 5rem;

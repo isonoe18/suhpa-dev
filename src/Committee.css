@@ -1,36 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+.committee > h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.committee > h2 {
+    font-size: 2rem;
+    letter-spacing: 0.20rem;
+}
+
+.member-content > h3 {
+    font-size: 1.5rem;
+}
+.member-content > h4 {
+    font-size: 1.10rem;
+    color: grey;
+}
+
+.member-content > p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 .slick-track {
     overflow: hidden;
 }
 
 .committee {
     text-align: center;
-    padding: 1rem  0  2rem 0;
+    padding: 3rem 0  2rem 0;
     overflow: hidden;
+    background-image: url('/img/plane.svg');
+    background-repeat: repeat-x;
 }
 
 
 .member {
     width: 20%;
-    float: left;
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
+    min-height: 540px;
+
+
+}
+.member-container {
+    float: left;
+    text-align: center;
+    border-radius: 8px;
+    min-height: 540px;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.member > img {
-    width: 80%;
+.member:focus{
+    outline: none;
+}
+
+.member-container> img {
+    width: 70%;
     border: solid 0 black;
+    margin: 1rem auto;
     border-radius: 50%;
-    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .member-content{
-    text-align: left;
     color: 293241;
+    padding: 1rem;
 }
 
 .member-content > h3{
     margin: 0;
-    margin-top: 1rem;
     color: #ee6c4d;
 }
 
@@ -40,6 +85,7 @@
 
 .member-content > p{
     margin: 0;
+    margin-top: 0.5rem;
     
 }
 /*

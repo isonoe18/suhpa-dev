@@ -22,7 +22,7 @@ class App extends Component {
         "name": "Tatjana Mandil",
         "jobs": [{
           "id": 1,
-          "job": "Presdient"
+          "job": "President"
         }],
         "quote": "Tatjana is a second year Aeronautics and Astronautics student, with a focus on propulsion. She is one of the founding members of SUHPA"
       },
@@ -57,7 +57,7 @@ class App extends Component {
     {
       "id": 5,
       "image": "./img/committee/matt.jpg",
-      "name": "Matt Edgeson",
+      "name": "Matt Edgson",
       "jobs": [{
         "id" : 1,
         "job" : "Secretary"
@@ -72,7 +72,7 @@ class App extends Component {
         "id": 1,
         "job": "Event and Social Manager"
       }],
-      "quote": "Description"
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra leo auctor dolor sodales ultrices. Cras a dolor nisl. Nam at lectus vestibulum, viverra velit eget, placerat quam. Nulla finibus."
     },
     {
       "id": 1,
@@ -106,7 +106,7 @@ class App extends Component {
         "id": 1,
         "job": "Drivetrain Team Vice-Lead"
       }],
-      "quote": "Description"
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra leo auctor dolor sodales ultrices. Cras a dolor nisl. Nam at lectus vestibulum, viverra velit eget, placerat quam. Nulla finibus."
     },
     {
       "id": 8,
@@ -127,6 +127,16 @@ class App extends Component {
         "job": "Integration Team Lead"
       }],
       "quote": "Robert is a first year Aeronautics and Astronautics student. He has been working closely with the Solent Sky Museum on a flight simulator to train future HPA pilots."
+    },
+    {
+      "id": 11,
+      "image": "./img/committee/default-user.jpg",
+      "name": "Alfie Taylor",
+      "jobs": [{
+        "id": 1,
+        "job": "Integration Team Vice-Lead"
+      }],
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra leo auctor dolor sodales ultrices. Cras a dolor nisl. Nam at lectus vestibulum, viverra velit eget, placerat quam. Nulla finibus."
     }]
   }
   render(){

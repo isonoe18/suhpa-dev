@@ -10,49 +10,46 @@ const Committee = ({committee}) => {
         });
         return member.id > 0 ? (
             <div key={member.id} className="member">
-                <img src={ member.image } alt={member.name}/>
-                <div className="member-content">
-                    <h3>{member.name}</h3>
-                    {
-                        jobList
-                    }
-                    <p>{member.quote}</p>
+                <div className="member-container">
+                    <img src={ member.image } alt={member.name}/>
+                    <div className="member-content">
+                        <h3>{member.name}</h3>
+                        {
+                            jobList
+                        }
+                        <p>{member.quote}</p>
+                    </div>
                 </div>
             </div>
         ) : null;
     });
     var settings = {
+        focusOnSelect: false,
         arrows: false,
         autoplay: true,
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 5,
+        autoplaySpeed: 6000,
+        slidesToShow: 4,
+        slidesToScroll: 4,
         responsive: [
             {
-                breakpoint: 990,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 4
-                }
-            },
-            {
-                breakpoint: 760,
+                breakpoint: 1120,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 830,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2
                 }
             },
             {
-                breakpoint: 380,
+                breakpoint: 430,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -62,6 +59,7 @@ const Committee = ({committee}) => {
     };
     return(
         <div className="committee">
+            <div className="curly-plane"></div>
             <h2>Our Committee</h2>
             <Slider {...settings}>
             { committeeList }
