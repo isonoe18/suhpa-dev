@@ -66,13 +66,13 @@ class App extends Component {
     },
     {
       "id": 10,
-      "image": "./img/committee/default-user.jpg",
+      "image": "./img/committee/justine.jpg",
       "name": "Justine McAvoy",
       "jobs": [{
         "id": 1,
         "job": "Event and Social Manager"
       }],
-      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra leo auctor dolor sodales ultrices. Cras a dolor nisl. Nam at lectus vestibulum, viverra velit eget, placerat quam. Nulla finibus."
+      "quote": "Justine is an aerospace engineering student; her passions lie in the space side of engineering especially in future missions to other planets. In her spare time, she enjoys working with the wing team and climbing"
     },
     {
       "id": 1,

@@ -35,7 +35,7 @@ font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding: 3rem 0  2rem 0;
     overflow: hidden;
-    background-image: url('/img/plane.svg');
+    background-image: url('/img/plane.svg?raw=true');
     background-repeat: repeat-x;
 }
 
