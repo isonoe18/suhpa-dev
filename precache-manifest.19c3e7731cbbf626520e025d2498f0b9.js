@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd935e323d8643d912a2335388b205ef",
+    "revision": "eb7398614d38b4ac089a3f32503d8e3f",
     "url": "/suhpa-dev/index.html"
   },
   {
-    "revision": "980d01e8710f82fea925",
+    "revision": "ae6a340f79cff6429b67",
     "url": "/suhpa-dev/static/css/main.906cace3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/suhpa-dev/static/js/2.3343544f.chunk.js"
   },
   {
-    "revision": "980d01e8710f82fea925",
-    "url": "/suhpa-dev/static/js/main.328e7517.chunk.js"
+    "revision": "ae6a340f79cff6429b67",
+    "url": "/suhpa-dev/static/js/main.a1ebaec4.chunk.js"
   },
   {
     "revision": "d22e360a329d0dd35acb",
