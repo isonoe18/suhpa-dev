@@ -1,6 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
 import './Committee.css'
+
+import { BrowserRouter } from 'react-router-dom'
 const Committee = ({committee}) => {
     const committeeList = committee.map(member => {
         const jobList = member.jobs.map(job => {
@@ -58,13 +60,15 @@ const Committee = ({committee}) => {
         ]
     };
     return(
-        <div className="committee">
-            <div className="curly-plane"></div>
-            <h2>Our Committee</h2>
-            <Slider {...settings}>
-            { committeeList }
-            </Slider>
-        </div>
+        <BrowserRouter basename="/" >
+            <div className="committee" to="/suhpa-dev">
+                <div className="curly-plane"></div>
+                <h2>Our Committee</h2>
+                <Slider {...settings}>
+                { committeeList }
+                </Slider>
+            </div>
+        </BrowserRouter>
     );
 }
 export default Committee;

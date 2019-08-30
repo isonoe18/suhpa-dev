@@ -3,6 +3,8 @@ import Header from './Header'
 import Committee from './Committee'
 import './index.css'
 
+import { BrowserRouter, Link } from 'react-router-dom';
+
 class App extends Component {
   state = {
     committee: [
@@ -100,13 +102,13 @@ class App extends Component {
     },
     {
       "id": 7,
-      "image": "./img/committee/default-user.jpg",
+      "image": "./img/committee/tom.jpg",
       "name": "Tom Andrews",
       "jobs": [{
         "id": 1,
         "job": "Drivetrain Team Vice-Lead"
       }],
-      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra leo auctor dolor sodales ultrices. Cras a dolor nisl. Nam at lectus vestibulum, viverra velit eget, placerat quam. Nulla finibus."
+      "quote": "Tom is an avid cyclist and is bringing that passion together with his love for aeronautics to support the development of SHUPA’s drivetrain"
     },
     {
       "id": 8,
@@ -130,13 +132,13 @@ class App extends Component {
     },
     {
       "id": 11,
-      "image": "./img/committee/default-user.jpg",
+      "image": "./img/committee/alfie.jpg",
       "name": "Alfie Taylor",
       "jobs": [{
         "id": 1,
         "job": "Integration Team Vice-Lead"
       }],
-      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra leo auctor dolor sodales ultrices. Cras a dolor nisl. Nam at lectus vestibulum, viverra velit eget, placerat quam. Nulla finibus."
+      "quote": "Alfie is a second year aerospace student and space enthusiast. Currently working as Vice Lead of Integration, he is trying to facilitate communication between our teams."
     }]
   }
   render(){
